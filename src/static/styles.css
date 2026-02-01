@@ -136,6 +136,51 @@ button:hover {
   display: none;
 }
 
+/* Participants styles */
+.participants-section {
+  margin-top: 12px;
+  padding-top: 10px;
+  border-top: 1px dashed #e0e0e0;
+}
+
+.participants-section h5 {
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: #444;
+}
+
+.participants-list {
+  list-style: disc inside;
+  margin: 0;
+  padding-left: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.participant-item {
+  background: linear-gradient(90deg, rgba(255,255,255,0.6), rgba(245,245,245,0.6));
+  padding: 8px 10px;
+  border-radius: 6px;
+  border: 1px solid #eee;
+  font-size: 14px;
+  color: #333;
+  display: flex;
+  align-items: center;
+}
+
+.participant-item::before {
+  content: "👥";
+  margin-right: 8px;
+  font-size: 14px;
+}
+
+.no-participants {
+  color: #666;
+  font-style: italic;
+  font-size: 14px;
+}
+
 footer {
   text-align: center;
   margin-top: 30px;
