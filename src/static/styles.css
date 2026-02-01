@@ -150,9 +150,9 @@ button:hover {
 }
 
 .participants-list {
-  list-style: disc inside;
+  list-style: none;
   margin: 0;
-  padding-left: 18px;
+  padding-left: 0;
   display: flex;
   flex-direction: column;
   gap: 6px;
@@ -175,6 +175,24 @@ button:hover {
   font-size: 14px;
 }
 
+.participant-email {
+  margin-right: 8px;
+}
+
+.participant-delete {
+  margin-left: auto;
+  background: transparent;
+  border: none;
+  color: #c62828;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 4px 6px;
+  border-radius: 4px;
+}
+
+.participant-delete:hover {
+  background-color: rgba(198,40,40,0.08);
+}
 .no-participants {
   color: #666;
   font-style: italic;
